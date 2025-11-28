@@ -119,4 +119,4 @@ Contiene elementos que en su mayoría están ordenados, pero con algunas posicio
 ---
 
 # NOTA: 
-**El DatasetBuilder convierte el id de los archivos csv a enteros y los guarda en un archivo txt**
+**La clase DatasetBuilder.Java convierte los archivos csv de practicas anteriores a archivos txt, usando como referencia su mismo formato empleado en la actividad para únicamente recolectar la columna id (para trabajar con enteros), columna la cual está organizada en base a lo necesitado en el taller (ordenados, desordenados, etc). Los datasets generados (.txt) se almacenan en la misma carpeta datasets/ y usan nombres genéricos indicados en el taller (ejem: datasetA, datasetB, etc)**
