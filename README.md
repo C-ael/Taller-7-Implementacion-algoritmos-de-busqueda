@@ -7,6 +7,7 @@
 - [Objetivos de la Practica](#Objetivos-de-la-Practica)
 - [Requisitos de Software](#Requisitos-de-Software)
 - [Como descargar el proyecto](#Como-descargar-el-proyecto)
+- [Principales precondiciones en los algoritmos usados](#Principales-precondiciones-en-los-algoritmos-usados)
 - [Casos borde](#Casos-borde)
 - [Datasets](#Datasets)
 - [Buenas Practicas Implementadas](#Buenas-Practicas-Implementadas)
