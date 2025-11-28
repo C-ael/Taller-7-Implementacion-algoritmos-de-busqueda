@@ -16,7 +16,6 @@
 ##  Objetivos de la Practica
 
 - Implementar correctamente las variantes canónicas de búsqueda secuencial y búsqueda binaria en Java. 
-
 - Validar con casos borde, y justificar cuándo aplicar cada método según la estructura de datos (arreglo vs SLL).
 
 ---
@@ -35,7 +34,8 @@ Requisito: tener git instalado.
 2. Dar click derecho dentro de la carpeta y dar click en Open Git Bash here.
 3. Escribimos el siguiente comando "git clone" seguido del link del repositorio a clonar https://github.com/C-ael/Taller-7-Implementacion-algoritmos-de-busqueda.git
 4. Abrir nuestro IDE de preferencia y abrir la carpeta que fue clonada.
-5. Probar el programa ejecutando la clase main que seria la SearchDemo.
+5. En caso de no poseer los datasets: ejecutar la clase DatasetBuilder para generar los .txt a partir de los archivos csv
+6. Probar el programa ejecutando la clase main SearchDemo.
 ---
 
 ## Principales precondiciones en los algoritmos usados
@@ -51,7 +51,6 @@ Requisito: tener git instalado.
 ### - firstOccurrence / lastOccurrence / findAll
 
 - La colección debe existir y no ser nula.
-
 - No requieren orden, pero el resultado depende de los datos presentes.
 
  ## Importancia
@@ -69,13 +68,9 @@ Para evaluar el rendimiento de los algoritmos de búsqueda y análisis, se utili
 - Todos los métodos (sequential, sequentialSentinel, firstOccurrence, lastOccurrence, binary) retornan -1 cuando la clave no existe.
 
 **3. Multiples valores repetidos**
-- firstOccurrence retorna la primera posición del valor.
-
-- lastOccurrence retorna la última posición.
-
-- findAll retorna todas las posiciones en un arreglo/Lista SLL.
-
-- Esto es relevante especialmente en el dataset Duplicados.
+- firstOccurrence: retorna la primera posición del valor.
+- lastOccurrence: retorna la última posición.
+- findAll: retorna todas las posiciones en un arreglo/Lista SLL.
 
 **4. Dataset desordenado**
 - Métodos secuenciales funcionan correctamente.
@@ -111,10 +106,8 @@ Contiene elementos que en su mayoría están ordenados, pero con algunas posicio
 
 - Código limpio, modular y fácilmente extensible  
 - Separación clara de responsabilidades  
-- Instrumentación detallada y validada  
-- Evitación de I/O dentro de la medición  
+- Instrumentación detallada y validada    
 - Tests con repetición y descarte de calentamiento  
-- Uso de mediana para evitar valores atípicos
 
 ---
 
