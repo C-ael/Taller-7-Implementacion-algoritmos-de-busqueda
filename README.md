@@ -117,3 +117,6 @@ Contiene elementos que en su mayoría están ordenados, pero con algunas posicio
 - Uso de mediana para evitar valores atípicos
 
 ---
+
+# NOTA: 
+**El DatasetBuilder convierte el id de los archivos csv a enteros y los guarda en un archivo txt**
